@@ -1,0 +1,91 @@
+.links {
+  display: block;
+  margin: 1rem auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.links a {
+  width: 48px;
+  height: 48px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: opacity 200ms ease;
+}
+
+.links a:hover {
+  opacity: 0.6;
+}
+
+.avatar {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.avatar img {
+  height: 120px;
+}
+
+.name {
+  text-align: center;
+}
+
+.name a {
+  color: inherit;
+}
+
+.contact_container {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+
+}
+
+.form_column {
+  flex: 1;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.text_column {
+  flex: 1.5;
+  padding: 20px;
+}
+
+/* Additional styling for form elements */
+
+.form_column input[type="text"],
+.form_column input[type="email"],
+.form_column textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form_column button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form_column button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styling for text column */
+
+.text_column h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text_column p {
+  font-size: 16px;
+  line-height: 1.5;
+}
