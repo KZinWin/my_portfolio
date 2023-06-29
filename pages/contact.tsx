@@ -75,7 +75,7 @@ export default function Contact() {
             Feel free to fill out the contact form , and I will respond to you as soon as possible.
           </p>
           <form className={contactStyles.form_column}>
-            <input type="text" name="email" id="email" placeholder='email' value={email} onChange={(e) => setEmail(e.target.value)} required />
+            <input type="text" name="email" id="email" placeholder='your email' value={email} onChange={(e) => setEmail(e.target.value)} required />
 
             <input type="text" name="subject" id="subject" placeholder='subject' value={subject} onChange={(e) => setSubject(e.target.value)} required />
 

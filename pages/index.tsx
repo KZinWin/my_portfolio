@@ -29,7 +29,7 @@ export default function Index() {
 
         <div className="explanation">
           <p>
-            Hi!   I'm Kay Zin Win . A fullstack Developer based in Yangon.Previously worked as an senior mid-level fullstack developer .
+            Hi!   I'm Kay Zin Win . A fullstack Developer based in Yangon.Previously worked as an Junior fullstack developer .
 
           </p>
         </div>

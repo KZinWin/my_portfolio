@@ -13,12 +13,12 @@ export default async function handler(req : any , res: any) {
         port: 465,
         ssl: true
     });
-
+    
     try {
 
         client.sendAsync(
             {
-                text: message,
+                text: `${message} \n -message from ${email}`,
                 from: 'kayzinwin@ucsy.edu.mm',
                 to: 'mysterioiusk82@gmail.com',
                 subject: subject,
